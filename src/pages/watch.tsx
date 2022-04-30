@@ -2,9 +2,8 @@ import React from 'react'
 import { IMovie } from '../utility/typescript';
 import { useLocation } from 'react-router-dom';
 
-const watch = () => {
+const Watch = () => {
     const location = useLocation();
-    console.log(useLocation())
     const url: any = location.state;
 
     return (
@@ -16,4 +15,4 @@ const watch = () => {
     )
 }
 
-export default watch
+export default Watch
